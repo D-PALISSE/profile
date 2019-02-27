@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(225, 225, 225, 1);
+  background-image: url(images/backimg.png);
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(50,50,50);
+}
+
+h1 {
+  color: #EB5160;
+}
+
+p {
+  color: darkgrey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+
+a:hover {
+  color: red;
+}
+
+#header-logo {
+  width: 110px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 2px lightgrey;
+  border: 10px dashed #EB5160;
+  padding: 0px
+}
+
+#header-logo:hover {
+  width: 140px;
+  border-radius: 50%;
+  padding: 0px
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  width: 600px;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 8px;
+  border: 3px solid lightgrey;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.card img {
+  width: 150px;
+  padding: 10px;
+}
+
+.list-inline {
+  display: inline-block;
+  list-style: none
+  padding: 0px;
+}
+
+#btn-lewagon {
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #EB5160;
+  transition: background 0.3s ease;
+  font-style: oblique;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+#btn-lewagon:hover {
+  opacity: 1;
+  background: none;
+  text-decoration: none;
+  color: #EB5160;
+}
+
+.films {
+  border-radius: 18px;
+}
+
+#logo {
+  padding: 0px;
+  margin: 5px;
+}
+
+.notes {
+  color: #EB5160;
+}
+
+.stars {
+  color: #EB5160;
+  font-size: 20px;
+}
+
+#card1 {
+  padding-bottom: 30px;
+}
+
+.font-icon {
+  color: #EB5160;
+  font-size: 80px;
+}
+
+.font-icon:hover {
+  color: rgb(15, 15, 15);
+  font-size: 80px;
+}
+
+#sociaux {
+  color: rgb(40, 40, 40);
+  font-style: italic;
+  font-weight: bold;
+}
+
+.ul {
+  padding-inline-start: 0px;
+}
